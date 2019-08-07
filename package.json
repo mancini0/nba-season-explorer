@@ -1,0 +1,45 @@
+{
+  "name": "react_proj",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build:dev": "webpack",
+    "build:prod": "webpack -p --env production",
+    "serve": "webpack-dev-server",
+    "postinstall": "node transform-csv-to-json.js"
+  },
+  "dependencies": {
+    "chart.js": "^2.7.3",
+    "highcharts": "^6.2.0",
+    "highcharts-react-official": "^2.0.0",
+    "immutable": "^4.0.0-rc.12",
+    "moment": "^2.22.2",
+    "moment-timezone": "^0.5.23",
+    "react": "^16.5.2",
+    "react-chartjs-2": "^2.7.4",
+    "react-dom": "^16.4.0",
+    "react-dom-factories": "^1.0.2",
+    "react-router-dom": "^4.3.1",
+    "semantic-ui-css": "^2.3.1",
+    "semantic-ui-react": "^0.78.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "classnames": "^2.2.6",
+    "css-loader": "^0.28.11",
+    "csv-parser": "^2.1.0",
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.9.1",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.11.2"
+  }
+}
