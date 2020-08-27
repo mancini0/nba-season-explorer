@@ -11,7 +11,7 @@ The application will be reachable at localhost:8080
 
 </p>Write a react.js application that consumes csv NBA season data and graphs a team's points over time. The user should be able to
 analyze a teams performance when they are at home and when they are away independently.The user should be able to select only the teams 
-of interest to the user. </p>
+of interest to him or her. </p>
 
 <b>Solution:</b>
 
