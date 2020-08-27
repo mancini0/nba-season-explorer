@@ -9,7 +9,7 @@ The application will be reachable at localhost:8080
 
 <b>Problem statement:</b>
 
-</p>Write a react.js application that consumes csv NBA season data and graphs a team's points over time. The user should be able to
+</p>Write a react.js application that consumes csv NBA season data and graphs a team's performance over time. The user should be able to
 analyze a teams performance when they are at home and when they are away independently.The user should be able to select only the teams 
 of interest to him or her. </p>
 
